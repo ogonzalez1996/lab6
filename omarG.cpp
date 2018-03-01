@@ -1,3 +1,5 @@
+//Author: Omar Gonzalez
+//Date: 03/01/2018
 #include <GL/glx.h>
 #include "fonts.h"
 
