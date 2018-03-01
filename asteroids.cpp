@@ -735,10 +735,17 @@ void physics()
 }
 
 void render()
-{
-	Rect r;
+{      
+    
+     	
+
+    
+        Rect r;
 	glClear(GL_COLOR_BUFFER_BIT);
 	//
+       extern void showName (const char* name, int x, int y);
+       showName("Omar Gonzalez", 100, 100);	
+
 	r.bot = gl.yres - 20;
 	r.left = 10;
 	r.center = 0;
@@ -830,6 +837,7 @@ void render()
 			glVertex2f(b->pos[0]+1.0f, b->pos[1]+1.0f);
 		glEnd();
 		++b;
+       	
 	}
 }
 
